@@ -1,0 +1,66 @@
+1. Create three variables in a single line and assign values to them in such a manner that each one of
+them belongs to a different data type.
+E.g. :
+a = 1,
+b = 2.01,
+c = 'string'
+
+Ans. a,b,c=5,0.9,'string'
+
+2. Create a variable of type complex and swap it with another variable of type integer.
+
+Ans. a= 1+2j
+     b=5
+     a, b= b, a
+
+3. Swap two numbers using a third variable and do the same task without using any third variable.
+
+Ans.  a=5
+      b=33
+      c=a
+      a=b
+      b=c
+
+      a=2
+      b=8
+      a,b=b,a
+
+4. Write a program that takes input from the user and prints it using both Python 2.x and Python 3.x
+Version.
+
+Ans.  x=raw_input("enter a value")
+      print(x)
+      x=input("enter a value") 
+      x
+
+5. Write a program to complete the task given below:
+Ask users to enter any 2 numbers in between 1-10 , add the two numbers and keep the sum in
+another variable called z. Add 30 to z and store the output in variable result and print result as the
+final output.
+
+
+Ans. x,y=input("enter two values")
+     z=x+y
+     result=z+30
+     result
+
+6. Write a program to check the data type of the entered values.
+HINT: Printed output should say - The data type of the input value is : int/float/string/etc
+
+Ans. x=input("Enter a value")
+     print("The data type of the input value is : ",type(x))
+
+7. Create Variables using formats such as Upper CamelCase, Lower CamelCase, SnakeCase and
+UPPERCASE.
+(Refer: https://capitalizemytitle.com/camel-case/)
+
+Ans. 	myCamelCaseVariable = 1
+	my_snakecase_variable = 23     
+        MyUpperCamelCase = 45
+        MYUPPERCASEVARIABLE = 21
+
+8. If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’
+again. Will it change the value? If Yes then Why?
+
+Ans. Yes, variables in Python can be reassigned to a new value that is a different data type from its current value.When you assign it a value, 
+the box will contain that value, and when you reassign it, it will empty out the old value, and the new value will be placed inside of it.
